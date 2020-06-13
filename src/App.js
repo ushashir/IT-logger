@@ -2,6 +2,7 @@ import React, { Fragment, useEffect } from 'react';
 import SearchBar from './components/layout/SearchBar';
 import Logs from './components/logs/Logs';
 import AddBtn from './components/layout/AddBtn';
+import Footer from './components/layout/Footer';
 import AddLogModal from './components/logs/AddLogModal';
 import EditLogModal from './components/logs/EditLogModal';
 import AddTechModal from './components/techs/AddTechModal';
@@ -29,7 +30,8 @@ const App = () => {
           <AddTechModal />
           <TechListModal />
           <Logs />
-        </div>
+        </div> <br /> <br /><br /> 
+        <Footer />
       </Fragment>
     </Provider>
   );
